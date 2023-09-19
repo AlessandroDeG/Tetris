@@ -1307,8 +1307,8 @@ class Timer extends Thread{
 class FileRW{
 	
 	static String mainDirPath = Tetris.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-	static String resDirName="\\TetrisResources";
-	static String highScoreName="\\Highscore.txt";
+	static String resDirName="/TetrisResources";
+	static String highScoreName="/Highscore.txt";
 	
 	static File path = new File(mainDirPath+resDirName+highScoreName);
 	static boolean fixPathForJar=true;
