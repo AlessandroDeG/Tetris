@@ -1,0 +1,3 @@
+javac tetris.java
+jar -cfm Tetris.jar Manifest.txt *.class *.txt *.java
+java -jar Tetris.jar
